@@ -9,7 +9,8 @@ const Home = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get('https://cloud-q.github.io/foodEcommerceBackend/api/categories');
+        // const response = await axios.get('http://localhost:5000/api/categories');
+        const response = await axios.get('https://food-ecommerce-backend.vercel.app/api/categories');
         setCategories(response.data);
       } catch (error) {
         console.error('Error fetching categories:', error);
