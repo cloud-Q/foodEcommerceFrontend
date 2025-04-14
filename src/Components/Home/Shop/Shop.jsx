@@ -10,7 +10,7 @@ const Shop = () => {
     const fetchData = async () => {
       try {
         // Adjust the URL to match your API endpoint for categories data
-        const response = await axios.get('http://localhost:5000/api/categories');
+        const response = await axios.get('https://cloud-q.github.io/foodEcommerceBackend/api/categories');
         setCategoriesData(response.data);
       } catch (error) {
         console.error('Error fetching categories:', error);
