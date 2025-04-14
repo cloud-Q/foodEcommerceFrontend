@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": 1,
+    "image": "/assets/images/egg_carton_pack.jpeg",
+    "name": "Egg Carton Pack",
+    "price": 5.99,
+    "protein": 6,
+    "carbs": 1,
+    "fats": 5
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/forza_oreo.jpeg",
+    "name": "Forza Oreo Protein Bar",
+    "price": 2.99,
+    "protein": 15,
+    "carbs": 20,
+    "fats": 8
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/greek_yogurt.jpeg",
+    "name": "Greek Yogurt",
+    "price": 3.49,
+    "protein": 10,
+    "carbs": 6,
+    "fats": 3
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/kasih_oats.jpeg",
+    "name": "Kasih Oats",
+    "price": 4.99,
+    "protein": 12,
+    "carbs": 40,
+    "fats": 5
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/omega3_eggs.jpeg",
+    "name": "Omega-3 Eggs",
+    "price": 6.49,
+    "protein": 7,
+    "carbs": 1,
+    "fats": 5
+  }
+]

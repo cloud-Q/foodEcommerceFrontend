@@ -1,0 +1,72 @@
+.product-grid {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    .subcategory-section {
+        // background-color: red;
+      margin-bottom: 40px;
+  
+      .subcategory-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        // background-image: url('../../images/Untitled\ design.png');
+        color: black;
+        text-transform: capitalize;
+        word-spacing: 12px;
+        letter-spacing: 1px;
+
+        
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100%;
+        
+  
+
+        .subcategory-title {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+  
+        .slider-controls {
+          display: flex;
+          gap: 10px;
+  
+          button {
+            background-color: #eee;
+            border: none;
+            border-radius: 50%;
+            padding: 8px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            &:hover {
+              background-color: #896eaa;
+            }
+          }
+        }
+      }
+  
+      .subcategory-products {
+        // background-color: blue;
+        display: flex;
+        /* Fixed container width to display only a set number of products. Adjust as needed. */
+        width: 100%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        gap: 20px;
+        padding: 20px 0;
+      }
+    }
+  }
+  
